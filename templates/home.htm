@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="/static/CSS/main.css">
+</head>
+<body style="font-family: 'Google Sans',Roboto,Arial,sans-serif;">
+    <div class="header">
+        <h1>Courier Tracking System</h1>
+    </div>
+    <div class="center">
+        <h3 style="text-align: left;margin-left: 15px;">Select an option:</h3>
+        <a href="{{url_for('customer')}}"><button >Customer</button></a>
+        <a href="{{url_for('admin')}}"><button>Admin</button></a>
+    </div>
+</body>
+</html>
